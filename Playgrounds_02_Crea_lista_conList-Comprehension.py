@@ -27,6 +27,6 @@ print('v1 =>', even_numbers)
 
 #respuesta
 
-even_numbers_v2 = []
+even_numbers_v2 = [number for number in numbers if number % 2 == 0]
 
 print('v2 =>', even_numbers_v2)
